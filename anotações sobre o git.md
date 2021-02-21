@@ -1,8 +1,8 @@
 - **Atualizar as dependências do package.json**
 `npm i -g npm-check-updates`
 
- - (Branch) **_basicamente existe a branch principal (ramo principal) e os ramos secundários_**
-**Criar uma branch secundária**
+ - (Branch) _basicamente existe a branch principal (ramo principal) e os ramos secundários_
+ - Criar uma branch secundária
 `git checkout -b namebranch`
 
 - **Clonar uma branch secundária**
