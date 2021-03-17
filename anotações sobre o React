@@ -1,0 +1,22 @@
+React é uma lib Javascript criado pelo Facebook que, essencialmente, manipula
+o DOM-real de forma performátiva se utilizando da construção de um DOM-virtual.
+Básicamente há uma comparação entre o virtual e o real, sendo a diferença,
+provenientes da manipulação da árvore, exibida no DOM-real.
+
+TypeScript=> superSet do JavaScript que expande as funcionalidades do JS
+npx create-react-app todo --template typescript
+
+receita: 
+(1) crie um index.html
+(2) defina nesse arquivo index.html uma <div> que tenha o id="root" ou 
+    qualquer outro nome que expresse a sua importância.
+(3) crie um arquivo index.js ou index.tsx, importe react e o react-dom e,
+    em seguida, chame a o método ReactDOM.render() que permite a entrada de
+    dois argumentos: (1-O QUE EU QUERO RENDERIZAR, 2-ONDE EU QUERO RENDERIZAR)
+    ReactDOM.render(
+        <React.StrictMode>
+          //o que eu quero renderizar
+        <React.StrictMode>, document.getElementById('root'))
+
+    
+
